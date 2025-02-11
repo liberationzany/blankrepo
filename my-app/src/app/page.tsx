@@ -28,6 +28,14 @@ export default function TodoApp() {
       >
         Add by ST
       </button>
+
+      <button 
+        onClick={addTask} 
+        className="bg-blue-500 text-black px-4 py-2 rounded w-full mb-4"
+      >
+        Add by GHALLEY
+      </button>
+  
       <ul>
         {tasks.map((task, index) => (
           <li key={index} className="border-b py-2 text-black" >{task}</li>
